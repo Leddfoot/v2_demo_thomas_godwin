@@ -4,7 +4,6 @@ import StartupModal from '../components/UI/Modals/StartupModal'
 import Toolkit from "./Toolkit";
 import PortfolioSection from "./PortfolioSection";
 import IntroSection from "./IntroSection";
-import FuturePlans from './FuturePlans'
 import Footer from '../components/UI/Footer/Footer'
 
 
@@ -23,7 +22,6 @@ function MainEntry() {
         <IntroSection />
         <PortfolioSection />
         <Toolkit />
-        <FuturePlans />
         <Footer />
       </div>
     </>
