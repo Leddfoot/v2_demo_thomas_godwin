@@ -6,7 +6,7 @@ function IntroSection() {
   return (
     <div className="intro-section">
           <h1 className="intro-header">Hi. I'm Thomas Godwin.</h1>
-          <h2 className="intro-subheader">Aspiring Junior Frontend Developer</h2>
+          <h2 className="intro-subheader">Aspiring Frontend Developer</h2>
           <p className='tldr__intro-section'>#TLDR: Masters degree OlsoMet-Universal Design of IT (aka accessibility expert), (4year) Bachelors degree University Greensboro Information Systems/Operations Management. I am an aspiring Frontend Developer. I love overthinking user interactions, UX, and securing accessibility. I like writing code that I can understand later. Mobile First comes natural to me. Check out my <a href="#portfolio">Portfolio</a> and a <a href="#skills">skills self assessment</a> below</p>
 
           <div className='long-winded-explanation'>
