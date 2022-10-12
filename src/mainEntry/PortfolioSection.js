@@ -48,20 +48,10 @@ function PortfolioSection() {
               headaches
             </h2>
             <p>
-              This project was a self imposed vanilla js project. I wanted to
-              ensure that my js skills were actually where I thought that they
-              were (they weren't until after this one). Theres a whole lot of
+              This project was a self imposed vanilla js project.  Theres a whole lot of
               rendering code here that could produced more efficiently in react.
               There are also features like dates and paginating that could have
-              been done a lot faster with npm i whatever. During production,
-              after I had established many succesful API calls, I suddenly was
-              blocked by CORS, and I believe that the vinmonopolet API must have
-              changed allow-cors or something. I spent a bit of time trying to
-              get around this with nothing but tears. In the end however, I
-              solved my problem by creating my own Node exress server. I queried
-              my own server and got around CORS. I was kinda proud of that. I
-              used the experience later to create a documentation page for a
-              certification requirement. That documentation can be found &nbsp;
+              been done a lot faster with npm i whatever. 
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -115,10 +105,7 @@ function PortfolioSection() {
             <p>
               I completed this project for a certification on FreeCodeCamp. It's
               not so complex in itself. However it does offer insight into how I
-              explain and document technical processes. More importantly, if you
-              read some of the documentation itself, it does show how I overcame
-              a nasty CORS situation and show that I can work at pure noob level
-              with Node and express and fetching etc.
+              explain and document technical processes. This is an actual solution for negating CORS if you want to work with an API than you do not control.
             </p>
             <p>
               The code repository for the documentation project is on{" "}
@@ -203,10 +190,7 @@ function PortfolioSection() {
               This project was created for a certification on FreeCodeCamp. It
               is a survey page that complements the product landing page above.
               Note that there is no functionality. It is more of a visual
-              implementation project. Note that most of the styling uses id
-              selectors. I did that because of their high specificity. I have
-              since taken a CSS deep dive and use more efficient class selectors
-              now.
+              implementation project. Note: ID selectors are used for components to satisfy the test requirements.
             </p>
             <p>
               The code repository for the product survey project is on{" "}
@@ -249,9 +233,7 @@ function PortfolioSection() {
             <p>
               This is yet another certification requirement for FreeCodeCamp.
               The tests involving timing were a little tricky to satisfy.
-              Designing a hook for the timer was difficult. Apparently I am not
-              the only person on the planet that found that to be difficult.
-              Just note that some of the setinterval hook comes from{" "}
+              Just note that some of the setinterval hook is not original code and comes from{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -302,9 +284,7 @@ function PortfolioSection() {
             <p>
               This is yet another certification requirement for FreeCodeCamp.
               Nothing too complex, just a fetch to an external Api that
-              retrieves quotes. The biggest challenge here was to style quotes
-              of various lengths and have them fit properly. I added some logic
-              to change the font size based on the length of the quote.
+              retrieves quotes.
             </p>
             <p>
               The code repository for the quote maker project is on{" "}
@@ -373,13 +353,7 @@ function PortfolioSection() {
           <h1>This Demo Page</h1>
 
           <div className={["portfolio__description", "this-demo"].join(" ")}>
-            <p>
-              This page is my latest work. It is mostly just a compilation of
-              several existing bits, but did require consistent styling across
-              several combined pages. Admittedly the BEM naming didn't end up as
-              something I'm proud of. I do plan to invest the time and correct
-              this.
-            </p>
+  
 
             <p>
               The code repository for this project is on {" "}

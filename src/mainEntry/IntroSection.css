@@ -36,7 +36,7 @@
   }
 
   to {
-    font-size: 50rem;
+    font-size: 5rem;
   }
 }
 
@@ -61,7 +61,7 @@
 
 @media (min-width: 1000px) {
   .main-entry__wrapper .intro-section .intro-header {
-    font-size: 16rem;
+    font-size: 8rem;
   }
 
   .main-entry__wrapper .intro-section .intro-subheader {
