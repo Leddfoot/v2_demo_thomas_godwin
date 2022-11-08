@@ -6,8 +6,8 @@ function SkillSectionList() {
 
   
   return (
-    <div className="skill-section__wrapper">
-      <div className="skill-list" id="skills">
+    <section className="skill-section__wrapper">
+      <section className="skill-list" id="skills">
               {
                 skillExplanations.map((skill)=> (
                         <SkillItem key={skill.id}
@@ -15,8 +15,8 @@ function SkillSectionList() {
                         />
                     ))}
 
-      </div> 
-    </div>
+      </section> 
+    </section>
   );
 }
 

@@ -20,10 +20,10 @@ import "./PortfolioSection.css";
 function PortfolioSection() {
   return (
     <>
-      <div className="portfolio-wrapper" id="portfolio">
+      <section className="portfolio-wrapper" id="portfolio">
         <h1 className="portfolio-header">MY STUFF</h1>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>Oh SH!T! is my vinmonopolet still open?!?</h1>
 
           <a
@@ -42,7 +42,7 @@ function PortfolioSection() {
             />
           </a>
 
-          <div className="portfolio__description">
+          <section className="portfolio__description">
             <h2 className="tldr">
               #TLDR: vanilla JS, express, node, css, mobile first, cors
               headaches
@@ -73,10 +73,10 @@ function PortfolioSection() {
               </a>
               .
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>Easy Cors Fix Documentation Page</h1>
 
           <a
@@ -93,7 +93,7 @@ function PortfolioSection() {
             />
           </a>
 
-          <div className="portfolio__description">
+          <section className="portfolio__description">
             <h2 className="tldr">
               #TLDR: html, css, node, express, mobile first, cors headaches
             </h2>
@@ -123,10 +123,10 @@ function PortfolioSection() {
               </a>
               .
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>Product Landing Page</h1>
 
           <a className="image-container" href="/landing-page">
@@ -141,7 +141,7 @@ function PortfolioSection() {
             />
           </a>
 
-          <div className="portfolio__description">
+          <section className="portfolio__description">
             <h2 className="tldr">
               #TLDR: html, css, javascript, react, mobile first
             </h2>
@@ -171,10 +171,10 @@ function PortfolioSection() {
               </a>
               .
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>Product Survey Page</h1>
 
           <a
@@ -191,7 +191,7 @@ function PortfolioSection() {
             />
           </a>
 
-          <div className="portfolio__description">
+          <section className="portfolio__description">
             <h2 className="tldr">#TLDR: html, css, javascript, mobile first</h2>
             <p>
               This project was created for a certification on FreeCodeCamp. It
@@ -219,10 +219,10 @@ function PortfolioSection() {
               </a>
               .
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>Pomodoro Timer</h1>
 
           <a
@@ -239,7 +239,7 @@ function PortfolioSection() {
             />
           </a>
 
-          <div className="portfolio__description">
+          <section className="portfolio__description">
             <h2 className="tldr">
               #TLDR: html, css, javascript, mobile first, react, react hooks
             </h2>
@@ -276,10 +276,10 @@ function PortfolioSection() {
               </a>
               .
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>Quote Fetcher</h1>
 
           <a
@@ -296,7 +296,7 @@ function PortfolioSection() {
             />
           </a>
 
-          <div className="portfolio__description">
+          <section className="portfolio__description">
             <h2 className="tldr">
               #TLDR: javascript, css, html, mobile first, react, react hooks
             </h2>
@@ -324,10 +324,10 @@ function PortfolioSection() {
               </a>
               .
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>Drum Machine</h1>
 
           <a
@@ -344,7 +344,7 @@ function PortfolioSection() {
             />
           </a>
 
-          <div className="portfolio__description">
+          <section className="portfolio__description">
             <h2 className="tldr">
               #TLDR: javascript, css, html, mobile first, react, react hooks
             </h2>
@@ -374,13 +374,13 @@ function PortfolioSection() {
               </a>
               .
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        <div className="portfolio-section">
+        <section className="portfolio-section">
           <h1>This Demo Page</h1>
 
-          <div className={["portfolio__description", "this-demo"].join(" ")}>
+          <section className={["portfolio__description", "this-demo"].join(" ")}>
             <p>
               The code repository for this page is found on{" "}
               <a
@@ -391,9 +391,9 @@ function PortfolioSection() {
                 Github Link.
               </a>
             </p>
-          </div>
-        </div>
-      </div>
+          </section>
+        </section>
+      </section>
     </>
   );
 }
