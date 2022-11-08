@@ -9,13 +9,15 @@
   width: 80%;
 }
 
-.main-entry__wrapper .portfolio-section a:link {
+.main-entry__wrapper .portfolio-section a:link,a:visited {
 color: yellow;
 }
 
-.main-entry__wrapper .portfolio-section a:visited{
-  color: yellow;
+.main-entry__wrapper .portfolio-section .site-link {
+  display: block;
   }
+
+
 
 
 

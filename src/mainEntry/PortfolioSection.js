@@ -48,18 +48,20 @@ function PortfolioSection() {
               headaches
             </h2>
             <p>
-              This project was a self imposed vanilla js project.  Theres a whole lot of
-              rendering code here that could produced more efficiently in react.
-              There are also features like dates and paginating that could have
-              been done a lot faster with npm i whatever.&nbsp;  
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://leddfoot-test.herokuapp.com/"
-              >
-                Link to Oh Sh!t is my vinmonopolet still open
-              </a>
+              This project was a self imposed vanilla js project. Theres a whole
+              lot of rendering code here that could produced more efficiently in
+              react. There are also features like dates and paginating that
+              could have been done a lot faster with npm i whatever.
             </p>
+            <a
+              className="site-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://leddfoot-test.herokuapp.com/"
+            >
+              Link to Oh Sh!t is my vinmonopolet still open
+            </a>
+
             <p>
               The code repository for the vinmonopolet project is on this&nbsp;
               <a
@@ -69,15 +71,8 @@ function PortfolioSection() {
               >
                 Github Link
               </a>
-              . It is deployed live at this &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://leddfoot-test.herokuapp.com/"
-              >
-                Link to Heroku
-              </a>
-            .</p>
+              .
+            </p>
           </div>
         </div>
 
@@ -105,25 +100,28 @@ function PortfolioSection() {
             <p>
               I completed this project for a certification on FreeCodeCamp. It's
               not so complex in itself. However it does offer insight into how I
-              explain and document technical processes. This is an actual solution for negating CORS if you want to work with an API than you do not control.
+              explain and document technical processes. This is an actual
+              solution for negating CORS if you want to work with an API than
+              you do not control.
             </p>
+            <a
+              className="site-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Leddfoot/docs_fcc/"
+            >
+              Link to the Easy Cors fix Docs
+            </a>
             <p>
-              The code repository for the documentation project is on{" "}
+              The code repository for the documentation project is on this{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Leddfoot/docs_fcc"
               >
-                Github
+                Github Link
               </a>
-              . It is deployed live at Heroku{" "}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://fcc-docs.herokuapp.com/"
-              >
-                here.
-              </a>
+              .
             </p>
           </div>
         </div>
@@ -190,7 +188,8 @@ function PortfolioSection() {
               This project was created for a certification on FreeCodeCamp. It
               is a survey page that complements the product landing page above.
               Note that there is no functionality. It is more of a visual
-              implementation project. Note: ID selectors are used for components to satisfy the test requirements.
+              implementation project. Note: ID selectors are used for components
+              to satisfy the test requirements.
             </p>
             <p>
               The code repository for the product survey project is on{" "}
@@ -232,8 +231,9 @@ function PortfolioSection() {
             </h2>
             <p>
               This is yet another certification requirement for FreeCodeCamp.
-              The tests involving timing were a little tricky to satisfy.
-              Just note that some of the setinterval hook is not original code and comes from{" "}
+              The tests involving timing were a little tricky to satisfy. Just
+              note that some of the setinterval hook is not original code and
+              comes from{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -353,10 +353,8 @@ function PortfolioSection() {
           <h1>This Demo Page</h1>
 
           <div className={["portfolio__description", "this-demo"].join(" ")}>
-  
-
             <p>
-              The code repository for this project is on {" "}
+              The code repository for this project is on{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
