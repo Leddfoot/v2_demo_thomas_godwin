@@ -386,7 +386,7 @@ function PortfolioSection() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/Leddfoot/demo_thomas_godwin"
+                href="https://github.com/Leddfoot/v2_demo_thomas_godwin"
               >
                 Github Link.
               </a>
