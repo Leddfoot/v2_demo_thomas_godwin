@@ -43,6 +43,11 @@
     padding-bottom: 3rem;
 }
 
+@media (min-width: 1000px) {
+    .toolkit__wrapper {
+        width: 45%;
+    }
+  }
 
 
 

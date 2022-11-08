@@ -18,9 +18,6 @@ color: yellow;
   }
 
 
-
-
-
 .portfolio-wrapper .portfolio-header {
   color: white;
   text-align: center;
@@ -119,7 +116,7 @@ color: yellow;
 
   .main-entry__wrapper .portfolio-section .portfolio__description.this-demo {
     display: block;
-    width: 100%;
+    margin: auto;
   }
   .tldr {
     margin: 0;

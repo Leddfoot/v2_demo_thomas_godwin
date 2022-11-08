@@ -63,7 +63,7 @@ function PortfolioSection() {
             </a>
 
             <p>
-              The code repository for the vinmonopolet project is on this&nbsp;
+              The code repository for the vinmonopolet project is on this{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -151,16 +151,25 @@ function PortfolioSection() {
               fictional and doesn't really exist. Shows off a nice design and
               solid mobile first styling.
             </p>
+            <a
+              className="site-link"
+              target="_blank"
+              rel="noreferrer"
+              href="/landing-page"
+            >
+              Link to Landing Page
+            </a>
             <p>
-              The code repository for the product landing page project is on{" "}
+              The code repository for the product landing page project is on
+              this{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Leddfoot/landing_page_fcc"
               >
-                Github
+                Github Link
               </a>
-              . It is deployed live at Heroku <a href="/landing-page">here.</a>
+              .
             </p>
           </div>
         </div>
@@ -191,19 +200,24 @@ function PortfolioSection() {
               implementation project. Note: ID selectors are used for components
               to satisfy the test requirements.
             </p>
+            <a
+              className="site-link"
+              target="_blank"
+              rel="noreferrer"
+              href="/survey"
+            >
+              Link to Survey Page
+            </a>
             <p>
-              The code repository for the product survey project is on{" "}
+              The code repository for the product survey project is on this{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Leddfoot/survey-form-fcc"
               >
-                Github
+                Github Link
               </a>
-              . It is deployed live at Heroku{" "}
-              <a target="_blank" rel="noreferrer" href="/survey">
-                here.
-              </a>
+              .
             </p>
           </div>
         </div>
@@ -243,19 +257,24 @@ function PortfolioSection() {
               </a>{" "}
               on the net where Dan Abramov explains how to implement it.
             </p>
+            <a
+              className="site-link"
+              target="_blank"
+              rel="noreferrer"
+              href="/pomodoro"
+            >
+              Link to Pomodoro Timer
+            </a>
             <p>
-              The code repository for the pomodoro project is on{" "}
+              The code repository for the pomodoro project is on this{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Leddfoot/pomodoro_fcc"
               >
-                Github
+                Github Link
               </a>
-              . It is deployed live at Heroku{" "}
-              <a target="_blank" rel="noreferrer" href="/pomodoro">
-                here
-              </a>
+              .
             </p>
           </div>
         </div>
@@ -286,19 +305,24 @@ function PortfolioSection() {
               Nothing too complex, just a fetch to an external Api that
               retrieves quotes.
             </p>
+            <a
+              className="site-link"
+              target="_blank"
+              rel="noreferrer"
+              href="/quote"
+            >
+              Link to Quote Fetcher
+            </a>
             <p>
-              The code repository for the quote maker project is on{" "}
+              The code repository for the quote maker project is on this{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Leddfoot/quote_machine_fcc"
               >
-                Github
+                Github Link
               </a>
-              . It is deployed live at Heroku{" "}
-              <a target="_blank" rel="noreferrer" href="/quote">
-                here.
-              </a>
+              .
             </p>
           </div>
         </div>
@@ -331,20 +355,24 @@ function PortfolioSection() {
               the corresponding letter on the keyboard to create the sound
               associated with it.
             </p>
-
+            <a
+              className="site-link"
+              target="_blank"
+              rel="noreferrer"
+              href="/drum"
+            >
+              Link to Drum Machine
+            </a>
             <p>
-              The code repository for the drum project is on{" "}
+              The code repository for the drum project is on this{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Leddfoot/drum_fcc"
               >
-                Github
+                Github Link
               </a>
-              . It is deployed live at Heroku{" "}
-              <a target="_blank" rel="noreferrer" href="/drum">
-                here.
-              </a>
+              .
             </p>
           </div>
         </div>
@@ -354,13 +382,13 @@ function PortfolioSection() {
 
           <div className={["portfolio__description", "this-demo"].join(" ")}>
             <p>
-              The code repository for this project is on{" "}
+              The code repository for this page is found on{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Leddfoot/demo_thomas_godwin"
               >
-                Github.
+                Github Link.
               </a>
             </p>
           </div>
