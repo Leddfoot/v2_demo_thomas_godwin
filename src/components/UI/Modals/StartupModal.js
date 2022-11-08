@@ -12,7 +12,7 @@ function StartupModal({ closeModal }) {
         <p>I included these tests to show the user stories that I was developing towards, and and to show that they are all passing. Just select the hamburger menu at the top left and select the proper test.</p>
         <p>However, I found the presence of the test suite quite irritating, so at any time just press the Remove Test Suite button at the top right, and it will hide the test suite and return the page to it's original look and feel. (Refreshing the page will bring them back if needed).</p>
         <div className="modal__actions">
-          <Button onClick={closeModal}>Got it!</Button>
+          <Button onClick={closeModal}>Close this Modal</Button>
         </div>
       </div>
     </>
