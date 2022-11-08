@@ -17,17 +17,7 @@ color: yellow;
   color: yellow;
   }
 
-.main-entry__wrapper .portfolio-section a:hover{
-  color: lightblue;
-  }
 
-.skill-explanation__wrapper a:link, a:visited {
-  color:blue;
-}
-
-.skill-explanation__wrapper a:hover {
-  color:darkblue;
-}
 
 .portfolio-wrapper .portfolio-header {
   color: white;

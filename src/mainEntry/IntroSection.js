@@ -11,7 +11,7 @@ function IntroSection() {
 
           <div className='long-winded-explanation'>
           <p>While working on a Universal Design of IT Masters Degree at what is now OlsoMet, I created a working prototype web application to test and support my research.  I was instantly attracted to Frontend programming, because it is tightly coupled with accessibility/UX/user friendliness and other concepts of this focus.</p>
-          <p>I have been and am constantly building my skillset, and I am a perpetual learner. My goal is to produce high quality, maintainable code. I am also interested in testing. I always design "mobile-first". Checkout my code yourself, source code for this page and all of the demo pages can be found on <a target="blank" rel="noreferrer" href="https://github.com/Leddfoot"> Github</a>   </p>
+          <p>I have been and am constantly building my skillset, and I am a perpetual learner. My goal is to produce high quality, maintainable code. I am also interested in testing. I always design "mobile-first". Checkout my code yourself, source code for this page and all of the demo pages can be found on this<a target="blank" rel="noreferrer" href="https://github.com/Leddfoot"> Github Link</a>.   </p>
           
           
           </div>

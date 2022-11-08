@@ -51,33 +51,33 @@ function PortfolioSection() {
               This project was a self imposed vanilla js project.  Theres a whole lot of
               rendering code here that could produced more efficiently in react.
               There are also features like dates and paginating that could have
-              been done a lot faster with npm i whatever. 
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://fcc-docs.herokuapp.com/"
-              >
-                here.
-              </a>
-            </p>
-            <p>
-              The code repository for the vinmonopolet project is on &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/Leddfoot/Vinmonopolet2.0"
-              >
-                Github
-              </a>
-              . It is deployed live at Heroku &nbsp;
+              been done a lot faster with npm i whatever.&nbsp;  
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://leddfoot-test.herokuapp.com/"
               >
-                here.
+                Link to Oh Sh!t is my vinmonopolet still open
               </a>
             </p>
+            <p>
+              The code repository for the vinmonopolet project is on this&nbsp;
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Leddfoot/Vinmonopolet2.0"
+              >
+                Github Link
+              </a>
+              . It is deployed live at this &nbsp;
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://leddfoot-test.herokuapp.com/"
+              >
+                Link to Heroku
+              </a>
+            .</p>
           </div>
         </div>
 
