@@ -46,6 +46,18 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  @keyframes slidein {
+    from {
+      font-size: 5rem;
+    } 
+  
+    to {
+      font-size: 5rem;
+    }
+  }
+}
+
 .main-entry__wrapper .intro-section .intro-subheader {
   margin-bottom: 1rem;
   text-align: center;
