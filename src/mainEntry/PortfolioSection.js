@@ -83,7 +83,7 @@ function PortfolioSection() {
             target="_blank"
             rel="noreferrer"
             className="image-container"
-            href="https://fcc-docs.herokuapp.com/"
+            href="https://jocular-rolypoly-ccfe60.netlify.app/"
           >
             <img src={docs} alt="view of easy cors fix documentation page" />
             <img
@@ -108,7 +108,7 @@ function PortfolioSection() {
               className="site-link"
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/Leddfoot/docs_fcc/"
+              href="https://jocular-rolypoly-ccfe60.netlify.app/"
             >
               Link to the Easy Cors fix Docs
             </a>
