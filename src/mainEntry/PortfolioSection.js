@@ -17,6 +17,8 @@ import drumMobile from "../img/drum-mobile.jpg";
 
 import "./PortfolioSection.css";
 
+//TEMPORARY: Note. THe
+
 function PortfolioSection() {
   return (
     <>
@@ -26,9 +28,11 @@ function PortfolioSection() {
         <section className="portfolio-section">
           <h1>Oh SH!T! is my vinmonopolet still open?!?</h1>
 
+          
           <a
+          href="#portfolio"
             className="image-container"
-            href="https://leddfoot-test.herokuapp.com/"
+            aria-disabled="true"
           >
             <img
               className="vinmonopolet--img"
@@ -53,14 +57,8 @@ function PortfolioSection() {
               react. There are also features like dates and paginating that
               could have been done a lot faster with npm i whatever.
             </p>
-            <a
-              className="site-link"
-              target="_blank"
-              rel="noreferrer"
-              href="https://leddfoot-test.herokuapp.com/"
-            >
-              Link to Oh Sh!t is my vinmonopolet still open
-            </a>
+            <p className="temporary-migration-notice">Note, this site is temporarily down due to migration from Heroku to Netlify. The express app has to be converted to lambda functions and serverless-http.</p>
+
 
             <p>
               The code repository for the vinmonopolet project is on this{" "}

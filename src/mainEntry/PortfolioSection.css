@@ -17,6 +17,12 @@ color: yellow;
   display: block;
   }
 
+.main-entry__wrapper .portfolio-section .temporary-migration-notice {
+  background-color: red;
+  }
+
+
+  
 
 .portfolio-wrapper .portfolio-header {
   color: white;
